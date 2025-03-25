@@ -25,13 +25,13 @@ sudo apt update && sudo apt install -y python3
 ## 使用方法
 ### 1. 下载脚本
 ```sh
-git clone https://github.com/help660vip/auto-add-ipv6.git
-cd auto-add-ipv6
+wget https://github.com/help660vip/auto-add-ipv6/releases/download/releases/ipv6.py
 ```
 
 ### 2. 运行脚本
 ```sh
-sudo python3 ipv6.py
+chmod +x ipv6.py
+python3 ipv6.py
 ```
 
 ### 3. 输入要生成的 IPv6 地址数量
