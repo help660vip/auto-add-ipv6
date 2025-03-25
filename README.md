@@ -30,7 +30,6 @@ wget https://github.com/help660vip/auto-add-ipv6/releases/download/releases/ipv6
 
 ### 2. 运行脚本
 ```sh
-chmod +x ipv6.py
 python3 ipv6.py
 ```
 
