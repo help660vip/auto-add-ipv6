@@ -3,7 +3,7 @@ import re
 import random
 
 print("🚀 自动获取并添加 IPv6 地址脚本")
-print("📌 项目地址: https://github.com/help660vip/auto-add-ipv6\n")
+print("📌 项目地址: https://github.com/help660vip/auto-add-ipv6")
 
 def get_interfaces_with_ipv6():
     """ 获取所有有 IPv6 地址的网卡，排除 ::1/128 和 fe80::，并去掉 @ifX 形式 """
