@@ -20,10 +20,10 @@
 
 ### 高级支持
 
-- ✅ 全自动操作流程，无需手动配置
-- ✅ 内置地址冲突检测机制
-- ✅ 兼容 Docker/LXC 容器网络环境
-- ✅ 支持大规模 IPv6 地址自动化运维
+-  全自动操作流程，无需手动配置
+-  内置地址冲突检测机制
+-  兼容 Docker/LXC 容器网络环境
+-  支持大规模 IPv6 地址自动化运维
 
 ---
 
@@ -91,10 +91,10 @@ sudo python3 ipv6-manager.py
 
 
 ```
-🌐 检测到网卡: eth0@if2，主地址: 2001:db8:abcd:1234::1/64
-✅ 已添加地址: 2001:db8:abcd:1234::a9b1/64 ➤ eth0@if2
-✅ 已添加地址: 2001:db8:abcd:1234::c6d3/64 ➤ eth0@if2
-✅ 已添加地址: 2001:db8:abcd:1234::d2ef/64 ➤ eth0@if2
+ 检测到网卡: eth0@if2，主地址: 2001:db8:abcd:1234::1/64
+ 已添加地址: 2001:db8:abcd:1234::a9b1/64 ➤ eth0@if2
+ 已添加地址: 2001:db8:abcd:1234::c6d3/64 ➤ eth0@if2
+ 已添加地址: 2001:db8:abcd:1234::d2ef/64 ➤ eth0@if2
 ```
 
 ---
@@ -111,10 +111,10 @@ ip -6 addr show | grep 'scope global'
 
 ## 适用场景
 
-* 🖥️ 云服务器批量配置 IPv6 地址
-* 🐳 Docker/LXC 容器网络管理
-* 🔬 大规模 IPv6 网络压力测试
-* 🛠️ 自动化运维工具链集成
+*  云服务器批量配置 IPv6 地址
+*  Docker/LXC 容器网络管理
+*  大规模 IPv6 网络压力测试
+*  自动化运维工具链集成
 
 ---
 
@@ -134,7 +134,7 @@ ip -6 addr show | grep 'scope global'
 
 * [提交问题报告](https://github.com/help660vip/auto-add-ipv6/issues)
 * [功能建议](https://github.com/help660vip/auto-add-ipv6/discussions)
-* ✨ 欢迎提交 Pull Request 改进项目
+* 欢迎提交 Pull Request 改进项目
 
 ---
 
